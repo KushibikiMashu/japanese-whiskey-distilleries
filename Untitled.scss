@@ -1,8 +1,12 @@
 
 
 // Semantic color scheme
+; 
+; 
+; 
+;
 $theme-colors: (
-  primary: #007bff,
+  primary: #a56060,
   secondary: #004EA3,
   success: #28a745,
   info: #00fbff,
@@ -29,13 +33,23 @@ $enable-print-styles:       true !default;
 // Theme settings.
 
 $body-bg: white;
-$body-color: #292b2c;
+$body-color: #6e7477;
+
+
+
+
+
 $body-color-inverse: invert($body-color) !default;
-$link-color: #007bff;
+$link-color: #3596ff;
 
 
-$font-family-base: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$headings-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
+$font-family-base: 'Comic Sans MS', cursive, sans-serif;
+
+
+$headings-font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+
 
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
 $font-size-h1: 2.5 * $font-size-base;
@@ -105,4 +119,8 @@ body > * {
   position: fixed;
   opacity: 0.8;
   z-index: 10000;
+}
+
+.h1 {
+ font-family: "Sawarabi Mincho";
 }
