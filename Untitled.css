@@ -5578,3 +5578,7 @@ body > * {
     top: 0px;
     pointer-events: none;
     background: linear-gradient(to top, #343a40 0%, transparent 100%); }
+
+.lead {
+  margin-left: 100px;
+  margin-right: 100px; }
