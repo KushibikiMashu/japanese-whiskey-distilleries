@@ -5583,7 +5583,6 @@ body > * {
   margin-left: 100px;
   margin-right: 100px; }
 
-nav {
-  position: fixed;
+#nav-bar {
   opacity: 0.9;
   z-index: 10000; }
