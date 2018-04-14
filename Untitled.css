@@ -2847,7 +2847,7 @@ button.list-group-item-dark {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -3063,7 +3063,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -3482,7 +3482,7 @@ template {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
