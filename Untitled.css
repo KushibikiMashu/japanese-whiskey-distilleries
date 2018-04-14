@@ -5584,6 +5584,6 @@ body > * {
   margin-right: 100px; }
 
 nav {
+  position: fixed;
   opacity: 0.9;
-  z-index: 10000;
-  position: fixed; }
+  z-index: 10000; }
