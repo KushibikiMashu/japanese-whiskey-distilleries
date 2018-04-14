@@ -5582,3 +5582,9 @@ body > * {
 .lead {
   margin-left: 100px;
   margin-right: 100px; }
+
+nav {
+  opacity: 0.9;
+  z-index: 10000;
+  position: fixed;
+  top: 0px; }
