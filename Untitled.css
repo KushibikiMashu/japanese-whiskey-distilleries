@@ -5580,6 +5580,12 @@ body > * {
     pointer-events: none;
     background: linear-gradient(to top, #343a40 0%, transparent 100%); }
 
+#nav-bar {
+  top: 0;
+  position: fixed;
+  opacity: 0.8;
+  z-index: 10000; }
+
 #head {
   margin-top: 56px; }
 
@@ -5587,12 +5593,6 @@ body > * {
   margin-top: 20px;
   margin-left: 100px;
   margin-right: 100px; }
-
-#nav-bar {
-  top: 0;
-  position: fixed;
-  opacity: 0.8;
-  z-index: 10000; }
 
 a:hover {
   text-decoration: none; }
