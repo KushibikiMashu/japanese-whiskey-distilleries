@@ -5589,3 +5589,6 @@ body > * {
   position: fixed;
   opacity: 0.8;
   z-index: 10000; }
+
+a:hover {
+  text-decoration: none; }
