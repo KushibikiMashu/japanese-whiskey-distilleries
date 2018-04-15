@@ -5612,6 +5612,12 @@ a:hover {
   /*background-repeat: no-repeat;*/
   background-size: cover; }
 
-#word {
+#taketsuru{
   opacity: 0;
-  display: block; }
+  display: block;
+   }
+
+/*#murakami{
+  opacity: 0;
+  display: block;
+}*/
