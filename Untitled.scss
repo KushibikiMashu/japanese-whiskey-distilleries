@@ -167,3 +167,10 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;  
 }
+
+@media(max-width: 767px){
+  .display-3 {
+    font-size: 2.5rem;
+    margin-bottom: -15px;
+  }
+}
