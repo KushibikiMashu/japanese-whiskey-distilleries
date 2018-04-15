@@ -5607,11 +5607,11 @@ a:hover {
   -o-transition: all 0.5s ease;
   transition: all  0.5s ease; }
 
+#lead-image {
+  background-image: url(aurora.jpg);
+  /*background-repeat: no-repeat;*/
+  background-size: cover; }
+
 #word {
   opacity: 0;
   display: block; }
-
-#lead-image {
-  background-image: url(aurora.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
