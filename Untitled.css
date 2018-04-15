@@ -5610,3 +5610,8 @@ a:hover {
 #word {
   opacity: 0;
   display: block; }
+
+#lead-image {
+  background-image: url(aurora.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
