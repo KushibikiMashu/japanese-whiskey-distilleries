@@ -5644,4 +5644,9 @@ a:hover {
   div:nth-child(4), #others{
     padding-bottom: 10px !important;
   }
+
+  #footer > div > div > div.col-md-9 > p{
+    font-size: 1rem;
+    text-align: center;
+  }
 }
