@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/earlyaccess/sawarabimincho.css);
 /*!
 * Bootstrap 4.0.0-beta (https://getbootstrap.com)
 * Copyright 2011-2017 The Bootstrap Authors
@@ -3582,7 +3583,7 @@ tbody.collapse.show {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Sawarabi Mincho";
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
