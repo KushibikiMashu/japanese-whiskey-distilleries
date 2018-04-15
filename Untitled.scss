@@ -1,16 +1,32 @@
-// Reassign color vars to semantic color scheme
-$brand-primary:             #00b0eb;
-$brand-success:             #5cb85c;
-$brand-info:                #5bc0de;
-$brand-warning:             #f0ad4e;
-$brand-danger:              #d9534f;
-$brand-inverse:             #292b2c;
 
+
+// Semantic color scheme
+; 
+; 
+; 
+;
+; 
+; 
+; 
+; 
+; 
+$theme-colors: (
+  primary: #a56060,
+  secondary: #004EA3,
+  success: #28a745,
+  info: #00fbff,
+  warning: #ffc107,
+  danger: #dc3545,
+  light: #f8f9fa,
+  dark: #343a40
+);
 
 // Options
 //
 // Quickly modify global styling by enabling or disabling optional features.
- 
+@import url(https://fonts.googleapis.com/earlyaccess/sawarabimincho.css); 
+
+
 $enable-rounded:            true !default;
 $enable-shadows:            false;
 $enable-gradients:          false;
@@ -24,12 +40,26 @@ $enable-print-styles:       true !default;
 // Theme settings.
 
 $body-bg: white;
-$body-color: #292b2c;
-$body-color-inverse: invert($body-color) !default;
-$link-color: #00b0eb;
+$body-color: #6e7477;
 
-$font-family-base: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$headings-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
+
+
+
+$body-color-inverse: invert($body-color) !default;
+$link-color: #3596ff;
+
+
+
+$font-family-base: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+
+
+
+$headings-font-family: 'Sawarabi Mincho';
+
+
+
+
 
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
 $font-size-h1: 2.5 * $font-size-base;
@@ -47,4 +77,82 @@ $display4-size: 3.5 * $font-size-base;
 $border-radius: .25rem;
 
 
-@import 'bootstrap-4.0.0-alpha.6';
+$display-font-family: Droid Serif;
+@import 'bootstrap-4.0.0-beta.1';
+
+
+body > * {
+  ground-size: cover;
+}
+
+.opaque-overlay {
+  overflow: hidden;
+  position: relative; 
+  > *:first-child:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px; 
+    pointer-events:none;
+    background: rgba(map-get($theme-colors, 'dark'), 0.25);
+  }
+}
+
+
+.gradient-overlay {
+  overflow: hidden;
+  position: relative; 
+  > *:first-child:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px; 
+    pointer-events:none;
+    background: linear-gradient(to top , map-get($theme-colors, 'dark') 0%, transparent 100%);
+
+  }
+}
+
+#nav-bar {
+  top: 0;
+  position: fixed;
+  opacity: 0.8;
+  z-index: 10000;
+}
+
+#head{
+ margin-top: 65px;
+}
+
+.lead {
+  margin-top: 20px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn-primary{
+ margin-bottom: 30px; 
+}
+
+.change-color{
+  color: #55acee;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all  0.5s ease;
+}
+
+#word{
+  opacity : 0;
+  display': block;
+});
