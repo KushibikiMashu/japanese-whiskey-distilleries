@@ -119,8 +119,8 @@ body > * {
   }
 }
 
-.py-4{
- margin-top: 20px; 
+#head{
+ margin-top: 55px; 
 }
 
 .lead {
@@ -130,6 +130,7 @@ body > * {
 }
 
 #nav-bar {
+  top: 0;
   position: fixed;
   opacity: 0.8;
   z-index: 10000;
