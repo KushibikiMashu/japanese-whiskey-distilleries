@@ -54,13 +54,3 @@ $(function(){
 		$(this).addClass('text-white');
 	});
 });
-
-
-// スクロール量を測る
-	// $(window).scroll(function () {
-	// 	var ScrTop = $(document).scrollTop(); 
-	// 	$('#intervalValue').val(ScrTop);
-	// });
-
-// HTMLで測る
-// <div id="interval">現在のスクロール位置：<input type="text" size="10" value="0" id="intervalValue" /></div>

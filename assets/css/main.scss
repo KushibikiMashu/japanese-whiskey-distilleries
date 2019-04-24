@@ -1,15 +1,15 @@
 
 
 // Semantic color scheme
-; 
-; 
-; 
 ;
-; 
-; 
-; 
-; 
-; 
+;
+;
+;
+;
+;
+;
+;
+;
 $theme-colors: (
   primary: #a56060,
   secondary: #004EA3,
@@ -24,7 +24,7 @@ $theme-colors: (
 // Options
 //
 // Quickly modify global styling by enabling or disabling optional features.
-@import url(https://fonts.googleapis.com/earlyaccess/sawarabimincho.css); 
+@import url(https://fonts.googleapis.com/earlyaccess/sawarabimincho.css);
 
 
 $enable-rounded:            true !default;
@@ -87,7 +87,7 @@ body > * {
 
 .opaque-overlay {
   overflow: hidden;
-  position: relative; 
+  position: relative;
   > *:first-child:before {
     content: '';
     width: 100%;
@@ -95,7 +95,7 @@ body > * {
     display: block;
     position: absolute;
     left: 0px;
-    top: 0px; 
+    top: 0px;
     pointer-events:none;
     background: rgba(map-get($theme-colors, 'dark'), 0.25);
   }
@@ -104,7 +104,7 @@ body > * {
 
 .gradient-overlay {
   overflow: hidden;
-  position: relative; 
+  position: relative;
   > *:first-child:before {
     content: '';
     width: 100%;
@@ -112,7 +112,7 @@ body > * {
     display: block;
     position: absolute;
     left: 0px;
-    top: 0px; 
+    top: 0px;
     pointer-events:none;
     background: linear-gradient(to top , map-get($theme-colors, 'dark') 0%, transparent 100%);
 
@@ -141,7 +141,7 @@ a:hover {
 }
 
 .btn-primary{
- margin-bottom: 30px; 
+ margin-bottom: 30px;
 }
 
 .change-color{
@@ -161,12 +161,6 @@ a:hover {
   opacity: 0;
   display: block;
 }*/
-
-#lead-image{
-  background-image: url(aurora.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;  
-}
 
 @media(max-width: 767px){
   /*題字を小さくする*/
